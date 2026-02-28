@@ -1,0 +1,22 @@
+# ── OS ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ───────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ── Claude Code ───────────────────────────────────────
+.claude/
+
+# ── Dart / Backend ────────────────────────────────────
+malasraices-dart-backend/.dart_tool/
+malasraices-dart-backend/.env
+
+# ── Secrets (global) ──────────────────────────────────
+.env
+.env.*
+!.env.example
